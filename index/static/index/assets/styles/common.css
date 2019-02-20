@@ -1,0 +1,97 @@
+*
+{
+    padding: 0;
+
+    margin: 0;
+}
+
+@font-face
+{
+    font-family: "roboto";
+    font-weight: 400;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face
+{
+    font-family: "roboto";
+    font-weight: 500;
+    src: url(../fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face
+{
+    font-family: "roboto";
+    font-weight: 300;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face
+{
+    font-family: "poppins";
+    src: url(../fonts/poppins/Poppins-Light.ttf);
+    font-weight: 300;
+}
+@font-face
+{
+    font-family: "poppins";
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+@font-face
+{
+    font-family: "poppins";
+    src: url(../fonts/poppins/Poppins-Medium.ttf);
+    font-weight: 500;
+}
+@font-face
+{
+    font-family: "poppins";
+    src: url(../fonts/poppins/Poppins-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face
+{
+    font-family: "bariol";
+    src: url(../fonts/bariol/Bariol_Regular.otf);
+}
+
+a:link
+{
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+
+    text-decoration: none;
+
+    transition: all .2s ease-in;
+
+    margin-right: 3em;
+}
+a:link:after
+{
+    content: "";
+    display: block;
+    border-bottom: 2px solid white;
+    width: 0;
+    transition: all .2s ease-out;
+}
+a:hover:after
+{
+    width: 100%;
+}
+a:visited
+{
+    text-decoration: none;
+
+    color: white;
+}
+a:hover
+{
+    opacity: .7;
+}
+a:active
+{
+    text-decoration: none;
+
+    color: white;
+}

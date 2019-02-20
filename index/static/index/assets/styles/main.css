@@ -1,0 +1,200 @@
+html, body
+{
+    width: 100%;
+
+    background-color: rgb(240, 240, 240);
+}
+
+.contentWrapper
+{
+    background-color: white;
+
+    text-align: center;
+
+    display: table;
+    margin: 2% auto;
+
+    border-radius: 3px;
+
+    box-shadow: 0 0 10px 1px rgb(200, 200, 200);
+
+    min-width: 20%;
+}
+
+.content-inputSection
+{
+    padding: 2%;
+}
+
+.content-header
+{
+    background-color: #E26D5A;
+    font-family: poppins;
+    color: white;
+
+    padding: 1% 5% 1% 5%;
+
+    border-radius: 3px;
+}
+
+.content-activate
+{
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, #E26D5A 50%, #ad5243 50%);
+
+    font-family: poppins;
+    color: white;
+    font-size: 10pt;
+
+    display: inline-block;
+
+    border-radius: 3px;
+
+    padding: 2% 5% 2% 5%;
+
+    width: 25%;
+
+    cursor: pointer;
+
+    margin-top: 15%;
+
+    transition: all .2s ease-out;
+}
+.content-activate:hover
+{
+    background-position: -100% 0%;
+}
+
+.content-addr
+{
+    margin-top: 10%;
+
+    padding: 2.5% 5% 2.5% 5%;
+
+    font-size: 120%;
+
+    width: 50%;
+
+    border: 2px solid rgb(240, 240, 240);
+
+    transition: all .1s ease-out;
+
+    border-radius: 3px;
+}
+.content-addr:hover
+{
+    border-color: rgb(220, 220, 220);
+
+    outline: none;
+}
+.content-addr:focus
+{
+    border-color: #E26D5A;
+
+    outline: none;
+}
+
+.content-public
+{
+    font-family: poppins;
+    color: #E26D5A;
+    font-size: 9pt;
+
+    cursor: pointer;
+
+    margin-top: 5%;
+
+    display: inline-block;
+}
+.content-public::after
+{
+    content: "";
+
+    display: block;
+
+    border-bottom: 2px solid #E26D5A;
+
+    width: 0;
+
+    transition: all .2s ease-out;
+}
+.content-public:hover::after
+{
+    width: 100%;
+}
+
+.logo
+{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 5%;
+}
+
+.logo-img
+{
+    width: 1.5em;
+    height: 1.5em;
+
+    margin-left: auto;
+}
+
+.logo-name
+{
+    font-family: poppins;
+    color: #E26D5A;
+
+    margin-right: auto;
+
+    margin-left: 1%;
+}
+.logo-name-span
+{
+    font-weight: 500;
+
+    letter-spacing: 2px;
+
+    margin-left: 7%;
+}
+
+.footer
+{
+    position: absolute;
+    bottom: 1.5%;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-family: roboto;
+    color: gray;
+    font-weight: 300;
+    line-height: 1em;
+    font-size: 85%;
+}
+
+.message
+{
+    display: table;
+    margin: 2% auto;
+
+    font-family: poppins;
+    color: gray;
+    font-weight: 300;
+    line-height: 1em;
+    font-size: 85%;
+
+    visibility: hidden;
+}
+
+.preloader-loader
+{
+    display: table;
+    margin: 1% auto;
+
+    visibility: hidden;
+
+    transition: all .1s ease-out;
+}

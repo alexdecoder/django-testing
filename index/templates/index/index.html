@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Syncronosys | Dev</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'index/assets/styles/common.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'index/assets/styles/main.css' %}">
+        <script type="text/javascript" src="{% static 'index/assets/scripts/dev.js' %}"></script>
+    </head>
+    <body>
+        <div class="dataPage">
+            <div class="logo">
+                <img class="logo-img" src="{% static 'index/assets/images/logo.png' %}">
+                <div class="logo-name">syncronosys<span class="logo-name-span">DEVELOPER</span></div>
+            </div>
+
+            <div class="contentWrapper">
+                <div class="content-header">
+                    Development Distribution Network<br>(DDN)
+                </div>
+                <div class="content-inputSection">
+                    <input type="text" class="content-addr" placeholder="Access Code" id="accesscode"><br>
+                    <div class="content-activate" id="b-activate">
+                        ACTIVATE
+                    </div><br>
+
+                    <div class="content-public">
+                        Public
+                    </div>
+                </div>
+            </div>
+
+            <div class="message">error</div>
+            <img class="preloader-loader" src="{% static 'index/assets/images/oval.svg' %}">
+
+            <div class="footer">
+                Build: V1.0.0<br>
+                &copy;2019 Syncronosys
+            </div>
+        </div>
+
+        <div class="remoteContent">
+            
+        </div>
+    </body>
+</html>
